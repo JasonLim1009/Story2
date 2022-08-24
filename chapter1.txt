@@ -1,2 +1,32 @@
 This is a story.
 This is a great story.
+
+
+
+//github分支与合并
+Branch: experimental
+edit chapter1.txt
+  -Commit changes
+    -Update chapter 1 to be more upbeat
+    *Commit changes
+    
+Branch: master
+Creating file
+  -chapter2.txt
+    -Create chapter 2
+    *Commit changes
+    
+Settings
+  -Graphs
+    -Network
+    
+New pull request
+base: master
+compare: experimental
+  -Create pull request
+    -Merge experimental branch to master.
+    *Confirm merge
+    
+Insights
+Graphs
+Network
